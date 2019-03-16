@@ -1,20 +1,25 @@
 package com.example.myrecyclerlist;
 
+import android.util.Log;
+
 public class EgypteGod {
+
 
     private String name;
     private String url;
+    private String[] affiliation;
     private String symbole;
-    private String urlsymbole;
+    private String symbimage;
     private String divinite;
     private String signification;
     private String role;
-    private String[] affiliation;
     private String element;
     private String animal;
     private String[] attributs;
 
+
     public void setName(String name) {
+        Log.d("egypte !!","le nom est bon");
         this.name = name;
     }
 
@@ -22,12 +27,16 @@ public class EgypteGod {
         this.url = url;
     }
 
+    public void setAffiliation(String[] affiliation) {
+        this.affiliation = affiliation;
+    }
+
     public void setSymbole(String symbole) {
         this.symbole = symbole;
     }
 
-    public void setUrlsymbole(String urlsymbole) {
-        this.urlsymbole = urlsymbole;
+    public void setSymbImage(String symbimage) {
+        this.symbimage = symbimage;
     }
 
     public void setDivinite(String divinite) {
@@ -40,10 +49,6 @@ public class EgypteGod {
 
     public void setRole(String role) {
         this.role = role;
-    }
-
-    public void setAffiliation(String[] affiliation) {
-        this.affiliation = affiliation;
     }
 
     public void setElement(String element) {
@@ -71,7 +76,7 @@ public class EgypteGod {
     }
 
     public String getUrlsymbole() {
-        return urlsymbole;
+        return symbimage;
     }
 
     public String getDivinite() {

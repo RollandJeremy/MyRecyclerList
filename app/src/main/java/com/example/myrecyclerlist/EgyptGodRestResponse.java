@@ -4,13 +4,13 @@ import java.util.List;
 
 public class EgyptGodRestResponse {
 
-    private List<EgypteGod> reponse;
+    private List<EgypteGod> results;
 
-    public List<EgypteGod> getReponse(){
-        return reponse;
+    public List<EgypteGod> getResults(){
+        return results;
     }
-    public void setReponse(List<EgypteGod> reponse){
-        this.reponse = reponse;
+    public void setResults(List<EgypteGod> results){
+        this.results = results;
     }
 
 }

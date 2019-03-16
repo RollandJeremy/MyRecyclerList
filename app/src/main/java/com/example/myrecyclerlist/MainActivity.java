@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
 
 import java.util.List;
 
@@ -12,6 +14,8 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
+
 
 
     @Override
@@ -22,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         MainController mainC = MainController.getInstance(this);
         mainC.onCreate();
-
 
     }
     public void initRecyclerView(List<EgypteGod> egyptGod){
