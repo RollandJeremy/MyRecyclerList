@@ -1,5 +1,17 @@
 <resources>
-    <string name="app_name">MyRecyclerList</string>
-    <string name="yohanna">Yohanna</string>
-    <string name="dieu">Dieu</string>
+
+    <string name="r_le"><u>\nRôle:</u></string>
+    <string name="divinite">divinite</string>
+    <string name="role">role</string>
+    <string name="affiliation_s"><u>Affiliation(s):</u></string>
+    <string name="affiliation">affiliation</string>
+    <string name="symbole"><u>Symbole</u>:</string>
+    <string name="symbol">symbole</string>
+    <string name="attribut_s"><u>Attribut(s)</u>:</string>
+    <string name="attributs">attributs</string>
+    <string name="element">element</string>
+    <string name="element_s"><u>Element(s)</u>:</string>
+    <string name="animal"><u>Animal</u></string>
+    <string name="name">name</string>
+    <string name="signification">signification</string>
 </resources>

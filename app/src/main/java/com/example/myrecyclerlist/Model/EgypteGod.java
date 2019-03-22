@@ -1,4 +1,4 @@
-package com.example.myrecyclerlist;
+package com.example.myrecyclerlist.Model;
 
 import android.util.Log;
 
@@ -18,50 +18,25 @@ public class EgypteGod {
     private String[] attributs;
 
 
+    public EgypteGod(String name, String url, String[] affiliation, String symbole, String symbimage, String divinite, String signification, String role, String element, String animal, String[] attributs) {
+        this.name = name;
+        this.url = url;
+        this.affiliation = affiliation;
+        this.symbole = symbole;
+        this.symbimage = symbimage;
+        this.divinite = divinite;
+        this.signification = signification;
+        this.role = role;
+        this.element = element;
+        this.animal = animal;
+        this.attributs = attributs;
+    }
+
     public void setName(String name) {
         Log.d("egypte !!","le nom est bon");
         this.name = name;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public void setAffiliation(String[] affiliation) {
-        this.affiliation = affiliation;
-    }
-
-    public void setSymbole(String symbole) {
-        this.symbole = symbole;
-    }
-
-    public void setSymbImage(String symbimage) {
-        this.symbimage = symbimage;
-    }
-
-    public void setDivinite(String divinite) {
-        this.divinite = divinite;
-    }
-
-    public void setSignification(String signification) {
-        this.signification = signification;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
-    public void setElement(String element) {
-        this.element = element;
-    }
-
-    public void setAnimal(String animal) {
-        this.animal = animal;
-    }
-
-    public void setAttributs(String[] attributs) {
-        this.attributs = attributs;
-    }
 
     public String getName() {
         return name;
