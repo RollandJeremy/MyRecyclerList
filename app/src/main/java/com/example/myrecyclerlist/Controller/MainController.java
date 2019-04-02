@@ -3,7 +3,11 @@ package com.example.myrecyclerlist.Controller;
 import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 
@@ -32,6 +36,8 @@ public class MainController {
     private static MainController instanceMC = null;
     private final EgypteGodCache cache;
     private Retrofit retrofit;
+    private RecyclerViewAdapter recyclerViewAdapter;
+
 
     private MainController(MainActivity mainActivity) {
         Log.d("mainController","Il est créé");
@@ -67,7 +73,7 @@ public class MainController {
 
         Log.d("TAG", "initRecyclerView: init RecyclerView");
         RecyclerView recyclerView = mainActivity.findViewById(R.id.recycler_view);
-        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(mainActivity,egyptGod);
+        recyclerViewAdapter = new RecyclerViewAdapter(mainActivity,egyptGod);
         recyclerView.setAdapter(recyclerViewAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(mainActivity));
     }
@@ -113,6 +119,27 @@ public class MainController {
         descriptif.putExtra("divinite",itemClicked.getDivinite());
         descriptif.putExtra("attributs",itemClicked.getAttributs());
         mainActivity.startActivity(descriptif);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = mainActivity.getMenuInflater();
+        inflater.inflate(R.menu.egyptegod_search,menu);
+
+        MenuItem searchItem = menu.findItem(R.id.search_barre);
+        android.support.v7.widget.SearchView searchView = (android.support.v7.widget.SearchView) searchItem.getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                recyclerViewAdapter.getFilter().filter(newText);
+                return false;
+            }
+        });
+        return true;
     }
 
 }

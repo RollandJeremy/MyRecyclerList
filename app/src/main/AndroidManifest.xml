@@ -7,7 +7,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icone"
-        android:label="MonApp"
+        android:label="EgyGod"
         android:roundIcon="@mipmap/icone_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
