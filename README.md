@@ -17,7 +17,7 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 * Une Architecture MCV
 
 ## Caractéristique
-[url=https://www.noelshack.com/2019-14-5-1554420119-screenshot-20190405-002811.jpg][img]https://image.noelshack.com/minis/2019/14/5/1554420119-screenshot-20190405-002811.png[/img][/url]
+[img]https://image.noelshack.com/minis/2019/14/5/1554420119-screenshot-20190405-002811.png[/img]
 ### Les Propriétés des Dieux
 ### Une API personnel
 ### Un Cache
