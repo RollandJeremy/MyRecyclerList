@@ -61,13 +61,8 @@ public class MainController {
 
     public void onCreate() {
 
-        if(cache.testCache()){
-            List<EgypteGod> liste = cache.getCache();
-            initRecyclerView(liste);
-        }
-        else{
-            this.readAPI();
-        }
+
+        this.readAPI();
     }
     private void initRecyclerView(List<EgypteGod> egyptGod){
 
@@ -98,8 +93,14 @@ public class MainController {
             @EverythingIsNonNull
             @Override
             public void onFailure(Call<EgyptGodRestResponse> call, Throwable t) {
-                Log.d("Errrror","API ERREUR");
-                t.printStackTrace();
+                if(cache.testCache()){
+                    List<EgypteGod> liste = cache.getCache();
+                    initRecyclerView(liste);
+                }
+                else {
+                    Log.d("Errrror", "API ERREUR");
+                    t.printStackTrace();
+                }
             }
         });
 
