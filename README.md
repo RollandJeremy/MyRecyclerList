@@ -1,10 +1,10 @@
-# Egygod
+# EgyGod
 ![CultureBox](https://culturebox.francetvinfo.fr/sites/default/files/assets/images/2018/12/maxstockfr009463.jpg)
 ## Membre de l'équipe (3A-ESIEA):
 * Rolland Jérémy
 ## Présentation
 Projet android mettant en scène un double écran : un avec une liste et l'autre avec les données de l'item.
-Egygod est une application android présentant différent Dieux Egyptiens. Il permet de connaître les caractéristiques de chacun d'eux.
+EgyGod est une application android présentant différent Dieux Egyptiens. Il permet de connaître les caractéristiques de chacun d'eux.
 Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours les avoir à porter de main?
 
 ## Consignes Respectées
@@ -14,7 +14,7 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 * Notifications PUSH Firebase
 * Filtrage de la liste en fonction du nom des Dieux
 * Utilisation du Gitflow
-* Une Architecture MCV
+* Une Architecture MVC
 
 ## Caractéristique
 Mettre une photo
@@ -41,6 +41,6 @@ PHOTO
 
 Plusieurs dieux sont disponibles sur l'application. Il serait plus facile de pouvoir chercher un dieu rapidement au lieu de scroller pour arriver jusqu'à lui ! C'est pourquoi EgyGod possède un système de filtrage - barre de recherche. On peut donc les trouver grâce à leurs noms.
 
-### Gitflow et Architecture MCV
+### Gitflow et Architecture MVC
 
-Enfin, vous pouvez le voir via le github, le gitflow a été utilisé afin de mener à bien le projet. Cela a permit de bien organiser le projet. De plus l'architecture MCV a été utilisé et le projet est assez clair et ordonné.
+Enfin, vous pouvez le voir via le github, le gitflow a été utilisé afin de mener à bien le projet. Cela a permit de bien organiser le projet. De plus l'architecture MVC a été utilisé et le projet est assez clair et ordonné.
