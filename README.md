@@ -19,8 +19,8 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 ## Caractéristique
 <img
     src="https://image.noelshack.com/fichiers/2019/14/5/1554480952-screenshot-20190405-013243.jpg" 
-    height="300px" 
-    width="300px" 
+    height="400px" 
+    width="200px" 
 />
 ### Les Propriétés des Dieux
 
