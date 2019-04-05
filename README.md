@@ -20,15 +20,24 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 <img
     src="https://image.noelshack.com/fichiers/2019/14/5/1554480952-screenshot-20190405-013243.jpg" 
     height="400px" 
-    width="200px" 
+    width="250px" 
 />
 ### Les Propriétés des Dieux
 
 EgyGod propose un large choix de propriété. Notamment le type de dieu, son rôle, son affiliation (les relations entre les dieux), son symbole majeur, ses attributs, son ou ses éléments et son animal totem ! Tout cela réaliser à l'aide du ScrollView pour la lisibilité. Il n'y a pas seulement de la documentation écrite mais des images pour donner du relief à l'application.
 
-
+<img
+    src="https://image.noelshack.com/fichiers/2019/14/5/1554481252-screenshot-20190405-013340.jpg" 
+    height="400px" 
+    width="250px" 
+/>
+<img
+    src="https://image.noelshack.com/fichiers/2019/14/5/1554481371-screenshot-20190405-013347.jpg" 
+    height="400px" 
+    width="250px" 
+/>
 ### Une API personnel
-EgyGod possède une API personnel. En effet, elle n'est utilisée par personne d'autres. Pour le moment seulement quelques dieux sont sur l'API. Elle est héberger sur le github sous un autre répertoire. Etant sur le github, il est facile de la maintenir et de la mettre à jour (ajour d'autres dieux à venir). Les plus importants suivant le mythe osirien sont opérationnels (voir image ci-haut)
+EgyGod possède une API personnel. En effet, elle n'est utilisée par personne d'autres. Pour le moment seulement quelques dieux sont sur l'API. Elle est héberger sur le github sous un autre répertoire. Etant sur le github, il est facile de la maintenir et de la mettre à jour (ajout d'autres dieux à venir). Les plus importants suivant le mythe osirien sont opérationnels (voir image ci-dessus)
 
 ### Un Cache
 La masse de donnée d'EgyGod est relativement basse car il n'existe pas des centaines de dieux. Un cache a été implémenté afin de pouvoir, dans le cas où internet ferait faux bond, avoir la totalité de ses données présentes. L'application peut donc être utilisé avec ou sans internet sans restriction ! Il suffit d'au moins l'avoir charger une fois avec internet préalablement.
@@ -44,7 +53,11 @@ Afin de rendre l'application un peu plus abstractif et publicitaire, les notific
 
 Plusieurs dieux sont disponibles sur l'application. Il serait plus facile de pouvoir chercher un dieu rapidement au lieu de scroller pour arriver jusqu'à lui ! C'est pourquoi EgyGod possède un système de filtrage - barre de recherche. On peut donc les trouver grâce à leurs noms.
 
-
+<img
+    src="https://image.noelshack.com/fichiers/2019/14/5/1554481490-screenshot-20190405-013311.jpg" 
+    height="400px" 
+    width="250px" 
+/>
 ### Gitflow et Architecture MVC
 
 Enfin, vous pouvez le voir via le github, le gitflow a été utilisé afin de mener à bien le projet. Cela a permit de bien organiser le projet. De plus l'architecture MVC a été utilisé et le projet est assez clair et ordonné.
