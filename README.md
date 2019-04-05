@@ -4,7 +4,7 @@
 * Rolland Jérémy
 ## Présentation
 Projet android mettant en scène un double écran : un avec une liste et l'autre avec les données de l'item.
-EgyGod est une application android présentant différent Dieux Egyptiens. Il permet de connaître les caractéristiques de chacun d'eux.
+EgyGod est une application android présentant différents Dieux Egyptiens. Il permet de connaître les caractéristiques de chacun d'eux.
 Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours les avoir à porter de main?
 
 ## Consignes Respectées
@@ -16,7 +16,7 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 * Utilisation du Gitflow
 * Une Architecture MVC
 
-## Caractéristique
+## Caractéristiques
 <img
     src="https://zupimages.net/up/19/14/5c6t.jpg" 
     height="400px" 
@@ -24,7 +24,7 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 />
 ### Les Propriétés des Dieux
 
-EgyGod propose un large choix de propriété. Notamment le type de dieu, son rôle, son affiliation (les relations entre les dieux), son symbole majeur, ses attributs, son ou ses éléments et son animal totem ! Tout cela réaliser à l'aide du ScrollView pour la lisibilité. Il n'y a pas seulement de la documentation écrite mais des images pour donner du relief à l'application.
+EgyGod propose un large choix de propriété. Notamment le type de dieu, son rôle, son affiliation (les relations entre les dieux), son symbole majeur, ses attributs, son ou ses éléments et son animal totem ! Tout cela réalisé à l'aide du ScrollView pour la lisibilité. Il n'y a pas seulement de la documentation écrite mais des images pour donner du relief à l'application.
 
 <img
     src="https://zupimages.net/up/19/14/362o.jpg" 
@@ -36,17 +36,17 @@ EgyGod propose un large choix de propriété. Notamment le type de dieu, son rô
     height="400px" 
     width="250px" 
 />
-### Une API personnel
-EgyGod possède une API personnel. En effet, elle n'est utilisée par personne d'autres. Pour le moment seulement quelques dieux sont sur l'API. Elle est héberger sur le github sous un autre répertoire. Etant sur le github, il est facile de la maintenir et de la mettre à jour (ajout d'autres dieux à venir). Les plus importants suivant le mythe osirien sont opérationnels (voir image ci-dessus)
+### Une API personnelle
+EgyGod possède une API personnelle. En effet, elle n'est utilisée par personne d'autres. Pour le moment seulement quelques dieux sont sur l'API. Elle est hébergé sur le github sous un autre répertoire. Etant sur le github, il est facile de la maintenir et de la mettre à jour (ajout d'autres dieux à venir). Les plus importants suivant le mythe osirien sont opérationnels (voir image ci-dessus)
 
 ### Un Cache
-La masse de donnée d'EgyGod est relativement basse car il n'existe pas des centaines de dieux. Un cache a été implémenté afin de pouvoir, dans le cas où internet ferait faux bond, avoir la totalité de ses données présentes. L'application peut donc être utilisé avec ou sans internet sans restriction ! Il suffit d'au moins l'avoir charger une fois avec internet préalablement.
+La masse de donnée d'EgyGod est relativement basse car il n'existe pas des centaines de dieux. Un cache a été implémenté afin de pouvoir, dans le cas où internet ferait faux bond, avoir la totalité de ses données présentes. L'application peut donc être utilisée avec ou sans internet sans restriction ! Il suffit d'au moins l'avoir chargé une fois avec internet préalablement.
 
 PHOTO(àfaire)
 
 ### Des Notifications
 
-Afin de rendre l'application un peu plus abstractif et publicitaire, les notifications PUSH ont été implanté dans l'application. Pour ce faire, EgyGod est connecté à Firebase.
+Afin de rendre l'application un peu plus attractive et publicitaire, les notifications PUSH ont été implantées dans l'application. Pour ce faire, EgyGod est connecté à Firebase.
 
 
 ### Un Filtre
@@ -65,4 +65,4 @@ Plusieurs dieux sont disponibles sur l'application. Il serait plus facile de pou
 />
 ### Gitflow et Architecture MVC
 
-Enfin, vous pouvez le voir via le github, le gitflow a été utilisé afin de mener à bien le projet. Cela a permit de bien organiser le projet. De plus l'architecture MVC a été utilisé et le projet est assez clair et ordonné.
+Enfin, vous pouvez le voir via le github, le gitflow a été utilisé afin de mener à bien le projet. Cela a permis de bien organiser le projet. De plus l'architecture MVC a été utilisée et le projet est assez clair et ordonné.
