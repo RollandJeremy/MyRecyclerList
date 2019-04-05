@@ -43,7 +43,7 @@ EgyGod possède une API personnelle. En effet, elle n'est utilisée par personne
 La masse de donnée d'EgyGod est relativement basse car il n'existe pas des centaines de dieux. Un cache a été implémenté afin de pouvoir, dans le cas où internet ferait faux bond, avoir la totalité de ses données présentes. L'application peut donc être utilisée avec ou sans internet sans restriction ! Il suffit d'au moins l'avoir chargé une fois avec internet préalablement.
 
 <img
-    src="https://zupimages.net/up/19/14/977d.jpg" 
+    src="https://zupimages.net/up/19/14/isib.jpg" 
     height="400px" 
     width="250px" 
 />
@@ -53,7 +53,7 @@ La masse de donnée d'EgyGod est relativement basse car il n'existe pas des cent
 Afin de rendre l'application un peu plus attractive et publicitaire, les notifications PUSH ont été implantées dans l'application. Pour ce faire, EgyGod est connecté à Firebase.
 
 <img
-    src="https://zupimages.net/up/19/14/lnyq.jpg" 
+    src="https://zupimages.net/up/19/14/977d.jpg" 
     height="400px" 
     width="250px" 
 />
