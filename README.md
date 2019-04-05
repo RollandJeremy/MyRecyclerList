@@ -28,12 +28,12 @@ EgyGod propose un large choix de propriété. Notamment le type de dieu, son rô
 
 <img
     src="https://image.noelshack.com/fichiers/2019/14/5/1554481252-screenshot-20190405-013340.jpg" 
-    height="400px" 
+    height="700px" 
     width="250px" 
 />
 <img
     src="https://image.noelshack.com/fichiers/2019/14/5/1554481371-screenshot-20190405-013347.jpg" 
-    height="400px" 
+    height="500px" 
     width="250px" 
 />
 ### Une API personnel
