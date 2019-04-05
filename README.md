@@ -17,11 +17,15 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 * Une Architecture MVC
 
 ## Caractéristique
-Mettre une photo
+<img
+    src="https://image.noelshack.com/fichiers/2019/14/5/1554480952-screenshot-20190405-013243.jpg" 
+    height="300px" 
+    width="300px" 
+/>
 ### Les Propriétés des Dieux
-Photo
+
 EgyGod propose un large choix de propriété. Notamment le type de dieu, son rôle, son affiliation (les relations entre les dieux), son symbole majeur, ses attributs, son ou ses éléments et son animal totem ! Tout cela réaliser à l'aide du ScrollView pour la lisibilité. Il n'y a pas seulement de la documentation écrite mais des images pour donner du relief à l'application.
-photo
+
 
 ### Une API personnel
 EgyGod possède une API personnel. En effet, elle n'est utilisée par personne d'autres. Pour le moment seulement quelques dieux sont sur l'API. Elle est héberger sur le github sous un autre répertoire. Etant sur le github, il est facile de la maintenir et de la mettre à jour (ajour d'autres dieux à venir). Les plus importants suivant le mythe osirien sont opérationnels (voir image ci-haut)
@@ -35,11 +39,11 @@ PHOTO(àfaire)
 
 Afin de rendre l'application un peu plus abstractif et publicitaire, les notifications PUSH ont été implanté dans l'application. Pour ce faire, EgyGod est connecté à Firebase.
 
-PHOTO
 
 ### Un Filtre
 
 Plusieurs dieux sont disponibles sur l'application. Il serait plus facile de pouvoir chercher un dieu rapidement au lieu de scroller pour arriver jusqu'à lui ! C'est pourquoi EgyGod possède un système de filtrage - barre de recherche. On peut donc les trouver grâce à leurs noms.
+
 
 ### Gitflow et Architecture MVC
 
