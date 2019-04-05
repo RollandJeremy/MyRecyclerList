@@ -18,7 +18,7 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 
 ## Caractéristique
 <img
-    src="http://zupimages.net/viewer.php?id=19/14/5c6t.jpg" 
+    src="https://zupimages.net/up/19/14/5c6t.jpg" 
     height="400px" 
     width="250px" 
 />
@@ -27,12 +27,12 @@ Pourquoi passer d'un site à un autre pour les connaître quand on peut toujours
 EgyGod propose un large choix de propriété. Notamment le type de dieu, son rôle, son affiliation (les relations entre les dieux), son symbole majeur, ses attributs, son ou ses éléments et son animal totem ! Tout cela réaliser à l'aide du ScrollView pour la lisibilité. Il n'y a pas seulement de la documentation écrite mais des images pour donner du relief à l'application.
 
 <img
-    src="http://zupimages.net/viewer.php?id=19/14/362o.jpg" 
+    src="https://zupimages.net/up/19/14/362o.jpg" 
     height="400px" 
     width="250px" 
 />
 <img
-    src="http://zupimages.net/viewer.php?id=19/14/6dvt.jpg" 
+    src="https://zupimages.net/up/19/14/6dvt.jpg" 
     height="400px" 
     width="250px" 
 />
@@ -54,12 +54,12 @@ Afin de rendre l'application un peu plus abstractif et publicitaire, les notific
 Plusieurs dieux sont disponibles sur l'application. Il serait plus facile de pouvoir chercher un dieu rapidement au lieu de scroller pour arriver jusqu'à lui ! C'est pourquoi EgyGod possède un système de filtrage - barre de recherche. On peut donc les trouver grâce à leurs noms.
 
 <img
-    src="http://zupimages.net/viewer.php?id=19/14/lnyq.jpg" 
+    src="https://zupimages.net/up/19/14/lnyq.jpg" 
     height="400px" 
     width="250px" 
 />
 <img
-    src="http://zupimages.net/viewer.php?id=19/14/bo5b.jpg" 
+    src="https://zupimages.net/up/19/14/bo5b.jpg" 
     height="400px" 
     width="250px" 
 />
